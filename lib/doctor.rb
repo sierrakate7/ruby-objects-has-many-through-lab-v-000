@@ -11,7 +11,6 @@ end
 
 def new_appointment(patient, date)
   Appointment.new(patient, self, date)
-  end 
 end 
 
 
@@ -25,4 +24,10 @@ def patients
   appointments.map do |appointment|
    appointment.patient
   end 
+end 
+
+ def self.all
+    @@all
+  end 
+  
 end 
