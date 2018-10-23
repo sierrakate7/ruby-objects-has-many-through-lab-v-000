@@ -13,7 +13,11 @@ def new_song(name, genre)
   Song.new(name, self, genre)
 end 
 
-def songs
+ def songs
+ Song.allct do |meal|
+      meal.customer == self
+   end
+end
 
 
   def self.all
