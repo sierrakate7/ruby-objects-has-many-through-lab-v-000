@@ -6,7 +6,7 @@ attr_accessor :patient, :doctor, :date
   @@all = []
 
 
-def initialize(patient, date, doctor)
+def initialize(patient, doctor, date)
    @patient = patient
    @doctor = doctor
    @date = ("Monday, August 1st")
