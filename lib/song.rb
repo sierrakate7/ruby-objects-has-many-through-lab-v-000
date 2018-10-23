@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 class Song 
 <<<<<<< HEAD
   attr_accessor :artist, :genre, :name 
