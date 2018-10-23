@@ -1,5 +1,5 @@
 class Doctor
- attr_accessor :name, :song, :artist
+ attr_accessor :name, :appointment, :patient
   
 @@all = []
 
@@ -7,6 +7,12 @@ class Doctor
 def initialize(name)
     @name = name 
     @@all << self
-  end
+end
+
+def new_appointment
+  
+end 
+  
+  
 
 end 
