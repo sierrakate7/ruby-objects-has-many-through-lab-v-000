@@ -20,7 +20,7 @@ end
 end
 
 def genres 
-  
+  songs.
 
   def self.all
     @@all
