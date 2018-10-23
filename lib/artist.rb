@@ -9,7 +9,7 @@ def initialize(name)
     @@all << self
 end
 
-def new_song(name,genre)
+def new_song(name, genre)
   Song.new(name, genre, self)
 end 
 
