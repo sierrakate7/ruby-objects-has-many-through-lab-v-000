@@ -25,20 +25,6 @@ def songs
     end
   end
   
- def genres
-    songs.map do |song|
-      song.genre
-    end 
-  end 
-  def new_song(name, genre)
-  Song.new(name, self, genre)
-  end 
-  
-def song
-    Song.all.select do |song|
-      song.Artist == self
-    end
-  end
   
   def self.all
     @@all
