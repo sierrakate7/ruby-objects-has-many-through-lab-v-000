@@ -14,7 +14,7 @@ def new_song(name, genre)
 end 
 
  def songs
- Song.allct do |meal|
+ Song.all.select do |song|
       meal.customer == self
    end
 end
