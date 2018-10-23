@@ -18,7 +18,7 @@ end
 
 def artists
   songs.map do |song|
-    song.artists
+    song.artist
   end 
 end 
 
