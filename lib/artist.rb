@@ -10,22 +10,6 @@ def initialize(name)
   end
   
  
- def new_song(name, genre)
-   Song.new(name, genre, self)
-  end 
-
-def genres
-    Genre.all.select do |song|
-      genre.artist == self 
-    end
-  end
-  
-def songs
-    Song.all.select do |song|
-      song.artist == self
-    end
-  end
-  
   
   def self.all
     @@all
