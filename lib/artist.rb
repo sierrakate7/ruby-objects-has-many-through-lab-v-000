@@ -15,7 +15,7 @@ end
 
  def songs
  Song.all.select do |song|
-      meal.customer == self
+      song.artist == self
    end
 end
 
