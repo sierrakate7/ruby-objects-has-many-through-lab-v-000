@@ -7,22 +7,14 @@ end
 
 
   
-  def initialize(artist, genre, name)
+def initialize(name, artist, genre)
+   @mame = name
    @artist = artist 
    @genre = genre
-   @name = name 
-
+   @@all << self
+end 
   
-  @@all = []
-  
-  def initialize(name, genre, artist)
-    @name = name
-    @genre = genre 
-    @artist = artist
->>>>>>> 13e156292a7399484e42fcf3d17f6236ae8127fe
-    @@all << self
-  end
-  
+ 
   def self.all
     @@all
   end 
